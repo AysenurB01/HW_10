@@ -1,0 +1,101 @@
+    1  git config --global user.name "AysenurB01"
+    2  git config --global user.email "aysenurbuyumez@icloud.com"
+    3  pwd
+    4  git init
+    5  git add .
+    6  git clone https://github.com/AysenurB01/HW_10.git
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  git status
+   10  ls
+   11  git add .
+   12  git status
+   13  git commit -m "Add text_ignore.txt to .gitignore and create text_ignore.txt"
+   14  clear
+   15  pwd
+   16  touch main_test.txt
+   17  git add .
+   18  git status
+   19  git commit -m "Create main_test.txt"
+   20  clear
+   21  pwd
+   22  git branch
+   23  git branch develop
+   24  git checkout develop
+   25  git branch
+   26  touch develop_test.txt
+   27  git add .
+   28  git commit -m "create develop_test.txt"
+   29  git status
+   30  git add .
+   31  git commit -m "Changed develop_test.txt"
+   32  clear
+   33  pwd
+   34  git branch
+   35  git checkout main
+   36  git branch
+   37  clear
+   38  git branch develop
+   39  git branch
+   40  git checkout develop
+   41  git checkout main
+   42  git branch
+   43  git merge develop
+   44  git merge develop
+   45  clear
+   46  pwd
+   47  git branch develop
+   48  git checkout develop
+   49  git branch
+   50  git checkout develop
+   51  clear
+   52  git branch
+   53  git checkout develop
+   54  git merge develop
+   55  cd ..
+   56  cd HW_10
+   57  git branch
+   58  pwd
+   59  cd Goit
+   60  clear
+   61  pwd
+   62  cd Goit
+   63  cd HW_10
+   64  cd SQL
+   65  pwd
+   66  cd Goit
+   67  pwd
+   68  cd desktop
+   69  cd Goit
+   70  cd HW_10
+   71  git branch
+   72  git checkout develop
+   73  git status
+   74  git add .
+   75  git commit -m "add develop_test.txt in main branch"
+   76  git dtatus
+   77  git status
+   78  git checkout develop
+   79  git branch
+   80  clear
+   81  git checkout main
+   82  git branch
+   83  git merge develop
+   84  git add .
+   85  git commit -m "Merge conflict in develop_test.txt"
+   86  git log
+   87  q
+   88  glear
+   89  clear
+   90  pwd
+   91  git branch
+   92  git status
+   93  gir log
+   94  git log
+   95  pwd
+   96  cd desktop
+   97  cd Goit
+   98  cd HW_10
+   99  clear
+  100  pwd
+  101  history > command_list.csv
